@@ -1,0 +1,48 @@
+$desktop: 1200px;
+$tablet: 768px;
+
+// tags
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+// class
+.ctn {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #24292e;
+  color: whitesmoke;
+  padding: 0 35px;
+}
+
+.ctn>div {
+  display: flex;
+  max-height: 50px;
+}
+
+.logo {
+  font-family: cursive;
+}
+
+.nav_links-ctn {
+  justify-self: end;
+  align-items: center;
+}
+
+.nav_links-ctn>.links {
+  @media (max-width: $tablet) {
+    display: none;
+  }
+}
+
+
+
+.toggle_btn {
+  @media (min-width: $tablet) {
+    display: none;
+  }
+}
