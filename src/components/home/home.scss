@@ -1,0 +1,57 @@
+.banner {
+  height: calc(100vh - 50px);
+  width: 100vw;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-family: emoji;
+}
+
+.info {
+  color: whitesmoke;
+  height: fit-content;
+  width: 50vw;
+  align-self: center;
+  justify-self: center;
+  
+  * {
+    text-align: initial;
+    margin: 0;   
+  }
+
+  .greeting {
+    font-weight: bold;
+    color: #e04d3c;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  button {
+    display: block;
+    background-color: #e04d3c;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  background-image: url('../../semi_open.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
